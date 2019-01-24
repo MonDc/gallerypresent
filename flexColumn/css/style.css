@@ -1,0 +1,48 @@
+
+* {
+  box-sizing: border-box;
+  padding:0;
+  margin:0;
+}
+
+body {
+  margin: 0;
+}
+
+
+
+.row {
+  display: flex;
+  /* flex-wrap: wrap; */
+  padding: 4px;
+}
+
+
+.column {
+  flex-direction: column;
+  width: 25%;
+  padding-left:4px;
+  padding-right:4px;
+
+}
+
+.column img {
+  margin-top: 8px; 
+  /* here we decide about the ratio of the pictre */
+  /* height: 30vh; */
+  vertical-align: middle;
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media (max-width: 800px) {
+  .column {
+    width: 50%;
+  }
+}
+
+
+@media (max-width: 600px) {
+  .column {
+    width: 100%;
+  }
+}

@@ -1,0 +1,11 @@
+.container{
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    /* background-color: #2196F3; */
+}
+img{
+    width:100%;
+    height: auto;
+    /* here we choose how we want the ratio of the pictures */
+    /* height: 30vh; */
+}

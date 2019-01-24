@@ -1,0 +1,22 @@
+.main{
+    margin-top: 50px;
+    text-align: center;
+    font-family: fantasy;
+    font-size: 30px;
+}
+.main2{
+    text-align: center;
+    font-family: fantasy;
+    font-size: 30px;
+    transform: rotatex(-180deg);
+    opacity:0.1;
+    color:gray;
+
+}
+*{
+    margin:0;
+    padding:0;
+}
+body{
+    background-color: aqua;
+}
